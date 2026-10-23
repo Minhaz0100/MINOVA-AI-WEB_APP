@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="minova-bg" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0B1326" />
+      <stop offset="100%" stop-color="#060A14" />
+    </linearGradient>
+    <linearGradient id="minova-border" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.65" />
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0.65" />
+    </linearGradient>
+    <linearGradient id="minova-cyan" x1="12" y1="14" x2="36" y2="50" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#22D3EE" />
+      <stop offset="100%" stop-color="#06B6D4" />
+    </linearGradient>
+    <linearGradient id="minova-violet" x1="28" y1="14" x2="52" y2="50" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="45%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#7C3AED" />
+    </linearGradient>
+    <linearGradient id="minova-core" x1="32" y1="12" x2="32" y2="44" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#67E8F9" />
+      <stop offset="100%" stop-color="#A78BFA" />
+    </linearGradient>
+  </defs>
+
+  <!-- Midnight Navy Geometric Container -->
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#minova-bg)" stroke="url(#minova-border)" stroke-width="2" />
+
+  <!-- Subtle Inner Hexagonal Grid Frame -->
+  <polygon points="32,8 52,19.5 52,44.5 32,56 12,44.5 12,19.5" fill="#091022" fill-opacity="0.7" stroke="#1E293B" stroke-width="1" />
+
+  <!-- Left Electric Cyan Geometric Pillar & Wing of the M -->
+  <path d="M16 46V18L23.5 18L32 32.5L26.5 36.5L22.5 29.5V46H16Z" fill="url(#minova-cyan)" />
+
+  <!-- Right Restrained Violet Geometric Pillar & Wing of the M -->
+  <path d="M48 46V18L40.5 18L32 32.5L37.5 36.5L41.5 29.5V46H48Z" fill="url(#minova-violet)" />
+
+  <!-- Central Geometric Diamond Apex Node -->
+  <polygon points="32,26 37.5,35 32,43 26.5,35" fill="url(#minova-core)" />
+
+  <!-- Precision Top Crest Node -->
+  <polygon points="32,12 35.5,17.5 32,21.5 28.5,17.5" fill="#22D3EE" />
+</svg>
